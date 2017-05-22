@@ -19,7 +19,9 @@ printf("성적 평균 : %f\n", average);
 for (i=0;i<9;i++) 
 for (j=9;j>i;j--)  
 if (score[j-1] > score[j])   {     
-tmp = score[j-1];     score[j-1] = score[j];     score[j] = tmp;   }  
+tmp = score[j-1];     
+score[j-1] = score[j];     
+score[j] = tmp;   }  
 
 //점수순으로 출력  
 printf("성적순 : ");  
